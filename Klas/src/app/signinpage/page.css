@@ -1,0 +1,80 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn .gray
+{
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.btn
+{
+    display: flex;
+    gap: 5px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.btn p
+{
+    color: gray;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+input
+{
+    width: 470px;
+
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.check
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.check .tick
+{
+    margin-left: -110px;
+    margin-top: -20px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.check .right
+{
+    margin-left: auto;
+    margin-top: 19px;
+
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    
+}
