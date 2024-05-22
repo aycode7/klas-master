@@ -8,6 +8,7 @@ import crown from './Images/crown.svg'
 const page = () => {
   return (
     <div>
+      {/* Pricing Page */}
         <div className="one">
             <h1 className='text-white text-5xl font-monospace pt-64 pb-24 font-bold'>Set up your virtual academy today</h1>
         </div>
