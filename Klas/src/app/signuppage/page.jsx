@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import slide1 from '../Images/slide-1.svg'
+import slide1 from './Images/slide-1.svg'
 import './page.css'
 import { useState } from 'react'
 

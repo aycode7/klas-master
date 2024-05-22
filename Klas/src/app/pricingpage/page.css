@@ -1,0 +1,191 @@
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.one
+{
+    background: linear-gradient(rgb(0, 89, 255),rgba(141, 44, 219, 0.877));
+    display: flex;
+    justify-content: center;
+    
+}
+
+.two
+{
+    padding: 200px 10%;
+    display: flex;
+}
+
+.ctn-1
+{
+    width: 370px;
+    background-color: rgba(221, 221, 221, 0.836);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn-1
+{
+    border: 1px solid blue;
+    padding: 17px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    margin-top: 27px;
+    transition: background-color 0.6s;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-bottom: 1px solid gray;
+
+}
+
+.btn-1:hover
+{
+    background-color: blue;
+    color: white;
+    transition: all 0.6s ease;
+
+}
+
+.text-1
+{
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px 20px;
+
+}
+
+.ctn-2
+{
+    width: 370px;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    position: relative;
+    margin-top: -10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.crownctn
+{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+
+}
+
+.crown
+{
+    height: 20px;
+    width: 20px;
+
+}
+
+.btn-2
+{
+    border: 1px solid blue;
+    padding: 17px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: blue;
+    margin-top: 27px;
+    transition: background-color 0.6s;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-bottom: 1px solid gray;
+
+}
+
+.btn-2:hover
+{
+    background-color: white;
+    color: blue;
+    transition: all 0.6s ease;
+    border: 1px solid blue;
+
+}
+
+.text-2
+{
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px 20px;
+
+}
+
+.three
+{
+    padding: 0 5%;
+
+}
+
+.three .sec-1
+{
+    box-shadow: 1px 1px 3px rgba(41, 40, 40, 0.863);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#line
+{
+    border-top: 1px solid rgb(156, 156, 156);
+    transition: 0.6s;
+}
+
+#line:hover p
+{
+    display: block;
+    transition: all 0.6s ease;
+
+}
+
+#line:hover #down
+{
+    display: none;
+
+}
+
+#line:hover #up
+{
+    display: block;
+    transition: all 1s ease;
+
+}
+
+.four
+{
+    padding: 100px 10%;
+
+}
+
+.four .ctn
+{
+    background: linear-gradient(rgb(0, 89, 255),rgba(141, 44, 219, 0.877));
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}

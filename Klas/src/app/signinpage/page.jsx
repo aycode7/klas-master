@@ -2,7 +2,7 @@
 import React from 'react'
 import './page.css'
 import Image from 'next/image'
-import slide1 from '../Images/slide-1.svg'
+import slide1 from './Images/slide-1.svg'
 import { useState } from 'react'
 
 const page = () => {
@@ -59,6 +59,7 @@ const page = () => {
                     <div>
                         <input className='bg-blue-200 font-sans mt-3 rounded-sm p-3' type="email" placeholder='Enter Your Email' required />
                     </div>
+                    
                 </form>
 
                 <form className='mt-8'>
@@ -80,13 +81,13 @@ const page = () => {
                     </span>
 
                     <span className='right'>
-                        <p>Forgot Password</p>
+                        <p className='cursor-pointer'>Forgot Password</p>
 
                     </span>
                 </div>
 
                 <div className='btn'>
-                    <button className='bg-blue-700 p-3 mt-10 px-20 text-white font-sans cursor-pointer rounded-sm'>Continue</button>
+                    <button className='bg-blue-700 p-3 mt-10 px-40 text-white font-sans cursor-pointer rounded-sm'>Continue</button>
                 </div>
                 
             </div>

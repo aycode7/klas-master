@@ -17,6 +17,10 @@ const page = () => {
       <a href='blogpage' >
         <h1>Blog</h1>
       </a>
+
+      <a href='pricingpage'>
+        <h1>Pricing</h1>
+      </a>
       
     </div>
   )
