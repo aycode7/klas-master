@@ -33,6 +33,8 @@ const page = () => {
     }
 
   return (
+    // Newest  commit here
+    
     <div>
         <div className='flex fixed'>
             <div className='px-24 py-3 bg-blue-800'>
@@ -53,43 +55,45 @@ const page = () => {
             <div className='flex-column px-10 py-12'>
                 <h1 className='text-blue-700 text-3xl'>Sign In</h1>
 
-                <form className='p-30 mt-14'>
-                    <p className='mt-8 font-sans text-lg'>Email Address</p>
+                <form>
+                    <div className='p-30 mt-14'>
+                      <p className='mt-8 font-sans text-lg'>Email Address</p>
 
-                    <div>
+                      <div>
                         <input className='bg-blue-200 font-sans mt-3 rounded-sm p-3' type="email" placeholder='Enter Your Email' required />
+                      </div>
                     </div>
-                    
-                </form>
 
-                <form className='mt-8'>
-                    <p className='mt-8 font-sans text-lg'>Password</p>
+                    <div className='mt-8'>
+                      <p className='mt-8 font-sans text-lg'>Password</p>
 
-                    <div>
+                      <div>
                         <input className='bg-blue-200 font-sans mt-3 rounded-sm p-3' type="password" placeholder='Enter Your Password' required />
+                      </div>
                     </div>
-                </form>
 
-                <div className='check'>
-                    <span className='left'>
-                      <p className='mt-4 w-28'>Remember me</p>
+                    <div className='check'>
+                      <span className='left'>
+                        <p className='mt-4 w-28'>Remember me</p>
                     
-                      <span>
-                        <input className='tick' type="checkbox" />
+                        <span>
+                          <input className='tick' type="checkbox" />
+                        </span>
+
                       </span>
 
-                    </span>
-
-                    <span className='right'>
+                      <span className='right'>
                         <p className='cursor-pointer'>Forgot Password</p>
 
-                    </span>
-                </div>
+                      </span>
+                    </div>
 
-                <div className='btn'>
-                    <button className='bg-blue-700 p-3 mt-10 px-40 text-white font-sans cursor-pointer rounded-sm'>Continue</button>
-                </div>
-                
+                    <div className='btn'>
+                      <button id='btn' className='bg-blue-700 font-bold p-3 mt-10 px-40 text-white font-sans cursor-pointer rounded-sm'>Continue</button>
+                    </div>
+                    
+                </form>
+
             </div>
 
             

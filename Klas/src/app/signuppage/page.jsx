@@ -63,7 +63,9 @@ const page = () => {
                 </span>
                 
                 <span className=''>
-                    <p className=' mt-12 login'>Login</p>
+                    <a href="signinpage">
+                      <p className=' mt-12 login'>Login</p>
+                    </a>
                     <p className='mt-8 create'>Create an account</p>
                 </span>
             </div>

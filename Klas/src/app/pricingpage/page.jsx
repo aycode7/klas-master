@@ -8,7 +8,6 @@ import crown from './Images/crown.svg'
 const page = () => {
   return (
     <div>
-      {/* Pricing Page */}
         <div className="one">
             <h1 className='text-white text-5xl font-monospace pt-64 pb-24 font-bold'>Set up your virtual academy today</h1>
         </div>
@@ -144,10 +143,10 @@ const page = () => {
             </div>
 
             <div className='sec-1'>
-                <div id='line' className='flex p-5 cursor-pointer'>
+                <div id='line2' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>Can I cancel my account at any time?</h2>
-                      <p className='font-sans text-gray-500 mt-4 hidden'>Yes, if you ever decide Klas isn't the best teaching platform for your needs, simply cancel your account.</p>
+                      <p className='text-gray-500 mt-4 hidden'>Yes, if you ever decide Klas isn't the best teaching platform for your needs, simply cancel your account.</p>
                     </div>
 
                     <div className='ml-auto'>
@@ -159,7 +158,7 @@ const page = () => {
                 <div id='line' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>Can I change my plan later on?</h2>
-                      <p className='font-sans hidden text-gray-500 mt-4'>Absolutely, you can upgrade or downgrade your plan at any time.</p>
+                      <p className='hidden text-gray-500 mt-4'>Absolutely, you can upgrade or downgrade your plan at any time.</p>
                     </div>
 
                     <div className='ml-auto'>
@@ -171,7 +170,7 @@ const page = () => {
                 <div id='line' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>In what countries can I use Klas?</h2>
-                      <p className='font-sans hidden text-gray-500 mt-4'>You can use Klas in nearly every country in the world</p>
+                      <p className='hidden text-gray-500 mt-4'>You can use Klas in nearly every country in the world</p>
                     </div>
 
                     <div className='ml-auto'>
@@ -183,7 +182,7 @@ const page = () => {
                 <div id='line' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>Are there any transaction fees on bookings?</h2>
-                      <p className='font-sans hidden text-gray-500 mt-4'>Yes, we charge a transaction fee on bookings depending on your plan. 10% booking fee on free plan, 3% fee on Pro, and 2% fee on Plus.</p>
+                      <p className='hidden text-gray-500 mt-4'>Yes, we charge a transaction fee on bookings depending on your plan. 10% booking fee on free plan, 3% fee on Pro, and 2% fee on Plus.</p>
                     </div>
 
                     <div className='ml-auto'>
@@ -195,7 +194,7 @@ const page = () => {
                 <div id='line' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>Is there a discount for Nonprofits?</h2>
-                      <p className='font-sans hidden text-gray-500 mt-4'>Not yet, but we have that in our 2023 roadmap to launch Klas for Nonprofits. So you can look out for that.</p>
+                      <p className='hidden text-gray-500 mt-4'>Not yet, but we have that in our 2023 roadmap to launch Klas for Nonprofits. So you can look out for that.</p>
                     </div>
 
                     <div className='ml-auto'>
@@ -207,7 +206,7 @@ const page = () => {
                 <div id='line' className='flex p-5 cursor-pointer'>
                     <div>
                       <h2 className='text-lg font-bold mt-2'>How can I receive payouts from my classes?</h2>
-                      <p className='font-sans hidden text-gray-500 mt-4'>We offer instant payouts to our creators. So the moment you start receiving bookings to a class, we pay out the earnings in less than 30 mins</p>
+                      <p className='hidden text-gray-500 mt-4'>We offer instant payouts to our creators. So the moment you start receiving bookings to a class, we pay out the earnings in less than 30 mins</p>
                     </div>
 
                     <div className='ml-auto'>
